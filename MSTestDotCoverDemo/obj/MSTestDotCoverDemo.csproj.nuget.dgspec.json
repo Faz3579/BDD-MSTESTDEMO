@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/fahezahamedmohammed/Desktop/BDD .NET/repos/MSTestDotCoverDemo/MSTestDotCoverDemo/MSTestDotCoverDemo.csproj": {}
+  },
+  "projects": {
+    "/Users/fahezahamedmohammed/Desktop/BDD .NET/repos/MSTestDotCoverDemo/MSTestDotCoverDemo/MSTestDotCoverDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fahezahamedmohammed/Desktop/BDD .NET/repos/MSTestDotCoverDemo/MSTestDotCoverDemo/MSTestDotCoverDemo.csproj",
+        "projectName": "MSTestDotCoverDemo",
+        "projectPath": "/Users/fahezahamedmohammed/Desktop/BDD .NET/repos/MSTestDotCoverDemo/MSTestDotCoverDemo/MSTestDotCoverDemo.csproj",
+        "packagesPath": "/Users/fahezahamedmohammed/.nuget/packages/",
+        "outputPath": "/Users/fahezahamedmohammed/Desktop/BDD .NET/repos/MSTestDotCoverDemo/MSTestDotCoverDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fahezahamedmohammed/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JetBrains.dotCover.CommandLineTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2020.3.2, )"
+            },
+            "JetBrains.dotCover.DotNetCliTool": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2020.3.2, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.MsTest": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
