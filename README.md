@@ -21,6 +21,12 @@ SpecFlow is inspired by Cucumber framework in the Ruby on Rails world. Cucumber 
 #### MSTest:
 
 MSTest is one type of framework that provides the facility to test the code without using any third-party tool. It helps in writing effective unit tests using MSTest framework to test software applications.
+https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest
+
+#### dotCover:
+
+dotCover is a . NET unit testing and code coverage tool that works right in Visual Studio and in JetBrains Rider, helps you know to what extent your code is covered with unit tests, provides great ways to visualize code coverage, and is Continuous Integration ready.
+https://www.jetbrains.com/dotcover/documentation/
 
 
 #### Introduction:
@@ -89,10 +95,8 @@ The following feature was implemented in this project:
     #To run actual test plans 
     dotnet run test
     
-    #To run code coverage using dotCover
     
     
-
 #### Frequently Asked Questions
 
 #### What are “step definitions” in SpecFlow?
